@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Yi Yang</author>
+			<author>Yunfeng Lu</author>
+			<author>Mengcheng Lu</author>
+			<author>Jinman Huang</author>
+			<author>Raid Haddad</author>
+			<author>George Xomeritakis</author>
+			<author>Nanguo Liu</author>
+			<author>Anthony P. Malanoski</author>
+			<author>Dietmar Sturmayr</author>
+			<author>Hongyou Fan</author>
+			<author>Darryl Y. Sasaki</author>
+			<author>Roger A. Assink</author>
+			<author>John A. Shelnutt</author>
+			<author>Frank Van Swol</author>
+			<author>Gabriel P. Lopez</author>
+			<author>Alan R. Burns</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Functional Nanocomposites Prepared by Self-Assembly and Polymerization of Diacetylene Surfactants and Silicic Acid</title>
+		<journal>J. Am. Chem. Soc.</journal>
+		<vol>125</vol>
+		<page>1269-77</page>
+		<pdf>ebb16fb4ea6590f90a0ea7c71403d529.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Donghai Wang</author>
+			<author>Weilie L. Zhou</author>
+			<author>Byron F. McCaughy</author>
+			<author>J. Eric Hampsey</author>
+			<author>Xianglin Ji</author>
+			<author>Ying-Bing Jiang</author>
+			<author>Huifang Xu</author>
+			<author>Jinke Tang</author>
+			<author>Russell H. Schmehl</author>
+			<author>Charles O'Connor</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Electrodeposition of metallic nanowire thin films using mesoporous silica templates</title>
+		<journal>Adv. Mater.</journal>
+		<vol>15</vol>
+		<page>130-33</page>
+		<pdf>d41d1b6fe3827df66cfe3033136c6bb5.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Zhenzhong Yang</author>
+			<author>Zhongwei Niu</author>
+			<author>Yunfeng Lu</author>
+			<author>Zhibing Hu</author>
+			<author>Charles C. Han</author>
+		</authors>
+		<title>Templated Synthesis of Inorganic Hollow Spheres with a Tunable Cavity Size onto Core-Shell Gel Particles</title>
+		<journal>Angew. Chem. Int. Ed.</journal>
+		<vol>42</vol>
+		<page>1943-5</page>
+		<pdf>60beedfa063ddbe44ede8027f9e11bdb.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Byron McCaughey</author>
+			<author>Chris Costello</author>
+			<author>Donghai Wang</author>
+			<author>J. Eric Hampsey</author>
+			<author>Zhenzhong Yang</author>
+			<author>Chaojun Li</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Self-Assembly of Mesostructured Conjugated Poly(2,5-thienylene ethynylene)/Silica Nanocomposites</title>
+		<journal>Adv. Mater.</journal>
+		<vol>15</vol>
+		<page>1266-69</page>
+		<pdf>82926995a3d0361950ea96d23c6632ee.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Zhongwei Niu</author>
+			<author>Dan Li</author>
+			<author>Zhenzhong Yang</author>
+			<author>Zhibing Hu</author>
+			<author>Yunfeng Lu</author>
+			<author>Charles C. Han</author>
+		</authors>
+		<title>Responsive Binary Composite Hydrogel Opals</title>
+		<journal>Chem. Phys. Chem.</journal>
+		<vol>4</vol>
+		<page>865-8</page>
+		<pdf>b7d43479386ea89c06546502415c0a44.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Nan Jiang</author>
+			<author>Qingyuan Hu</author>
+			<author>Carrolyn S. Reid</author>
+			<author>Yunfeng Lu</author>
+			<author>Chao-Jun Li</author>
+		</authors>
+		<title>A novel palladium-catalyzed coupling of epoxides with allyl bromide mediated by indium(I) chloride: a cascade epoxide rearrangement–carbonyl allylation</title>
+		<journal>Chem. Comm.</journal>
+		<vol></vol>
+		<page>2318-9</page>
+		<pdf>3384639024866919d4e454c76d3450fc.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Xiangling Ji</author>
+			<author>J. Eric Hampsey</author>
+			<author>Qingyuan Hu</author>
+			<author>Jibao He</author>
+			<author>Zhenzhong Yang</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Mesoporous Silica-Reinforced Polymer Nanocomposites</title>
+		<journal>Chem. Mater.</journal>
+		<vol>15</vol>
+		<page>3656-62</page>
+		<pdf>0e9fb52720da349fec7316f888b120e5.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Zhenglong Yang</author>
+			<author>Zhongwei Niu</author>
+			<author>Xinyu Cao</author>
+			<author>Zhenzhong Yang</author>
+			<author>Yunfeng Lu</author>
+			<author>Zhibing Hu</author>
+			<author>Charles C. Han</author>
+		</authors>
+		<title>Template synthesis of uniform 1D mesostructured silica materials and their arrays in anodic alumina membranes</title>
+		<journal>Angew. Chem. Int. Ed.</journal>
+		<vol>42</vol>
+		<page>4201-3</page>
+		<pdf>8e4e00f7d0a57e261e5e0d2ddc4f50cd.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Donghai Wang</author>
+			<author>Xiangling Ji</author>
+			<author>Jie-Bin Pang</author>
+			<author>Qingyuan Hu</author>
+			<author>Huifang Xu</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Electric Field-Induced Mesostructure Transformation of Self-Assembled Silica/Copolymer Nanocomposite Thin Films</title>
+		<journal>Phys. Chem. Chem. Phys.</journal>
+		<vol>5</vol>
+		<page>4070-2</page>
+		<pdf>cc754312cec17e59d87fae74eb87e625.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>J. Eric Hampsey</author>
+			<author>Claudio L. De Castro</author>
+			<author>Byron F. McCaughy</author>
+			<author>Donghai Wang</author>
+			<author>Brian S. Mitchell</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Micron to Sub-Micron Sized Highly Ordered Mesoporous Silica Particles Prepared Using a High Energy Ball Milling Process</title>
+		<journal>Mat. Res. Soc. Symp. Proc.</journal>
+		<vol>775</vol>
+		<page>83-8</page>
+		<pdf>a14f1548cc60bdfac78da4d767dd680c.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Donghai Wang</author>
+			<author>David T. Johnson</author>
+			<author>Byron F. McCaughy</author>
+			<author>J. Eric Hampsey</author>
+			<author>Jibao He</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Palladium Nanowire Thin Films via Template Growth</title>
+		<journal>Mat. Res. Soc. Symp. Proc.</journal>
+		<vol>775</vol>
+		<page>101-6</page>
+		<pdf>81588175782e926c3100f33bba74d721.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Byron McCaughey</author>
+			<author>Chris Costello</author>
+			<author>J. Eric Hampsey</author>
+			<author>Donghai Wang</author>
+			<author>Chaojun Li</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Novel Conjugated Polymer/Silica Nanocomposites with Tunable Mesostructure Synthesized by a Robust Pd Catalyst</title>
+		<journal>Mat. Res. Soc. Symp. Proc.</journal>
+		<vol>775</vol>
+		<page>199-204</page>
+		<pdf>e34322715bdefc363146e9e1c02b5a59.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Byron F. McCaughy</author>
+			<author>Donghai Wang</author>
+			<author>J. Eric Hampsey</author>
+			<author>Nilesh Doke</author>
+			<author>Zhenzhong Yang</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Aerosol-Assisted Formation of Mesostructured Thin Films</title>
+		<journal>Adv. Mater.</journal>
+		<vol>15</vol>
+		<page>1733-6</page>
+		<pdf>a22c8d0024b7ca2a86529a2c96227597.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Zhongwei Niu</author>
+			<author>Zhenzhong Yang</author>
+			<author>Zhibing Hu</author>
+			<author>Yunfeng Lu</author>
+			<author>Charles C. Han</author>
+		</authors>
+		<title>Polyaniline-Silica Composite Conductive Capsules and Hollow Spheres</title>
+		<journal>Adv. Funct. Mater.</journal>
+		<vol>13</vol>
+		<page>949-54</page>
+		<pdf>b6bddf7c830dc0d86fcf17c9d1f71e67.pdf</pdf>
+	</paper>
+</papers>

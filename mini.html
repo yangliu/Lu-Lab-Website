@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Lu Lab @ UCLA</title>
+	<style type="text/css">
+		* { vertical-align: baseline; font-weight: inherit; font-family: inherit; font-style: inherit; font-size: 100%; border: 0; padding: 0; margin: 0; }
+		body { margin: 0; border-top: 4px solid Maroon; padding: 10px 20px 20px 20px;font-size: 13px; font-family: Helvetica, sans-serif; color: #555;}
+		a { color: Maroon; text-decoration: none;}
+		a:hover { text-decoration: underline; }
+		p { margin: 10px 0; line-height: 140%;  }
+		#browsernote {
+			margin: 10px 10px 20px 10px;
+			background: #fffafe;
+			border: 1px solid #ffe5fa;
+			padding: 20px;
+		}
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 15px 0 25px;
+			padding-bottom: 10px;
+			border-bottom: 4px solid Maroon;
+		}
+		#toc {
+			background: #fffafe;
+			border: 1px solid #ffe5fa;
+			padding: 20px;
+			margin: 15px 0;
+			width: 200px;
+			color: Maroon;
+		}
+		#toc li {
+			margin: 5px 0 5px 20px;
+		}
+		.section {
+			margin: 15px 0 30px 0;
+		}
+		.section h2 {
+			font-size: 16px;
+			font-weight: bold;
+			margin: 15px 0 20px;
+			padding-bottom: 5px;
+			border-bottom: 1px solid Maroon;
+			
+		}
+		.section h3 {
+			font-size: 14px;
+			font-weight: bold;
+			font-style: italic;
+			margin: 10px 0 15px;
+		}
+		#lu-cv li, .memberlist li, .pub-list li {
+			margin: 5px 0 5px 20px;
+		}
+		.res-note {
+			font-style: italic;
+		}
+		.mem-name {
+			font-weight: bold;
+			font-size: 13px;
+			padding-right: 20px;
+		}
+		.mem-link {
+			font-size: 10px;
+			margin: 0 3px;
+			text-transform: uppercase;
+		}
+		.dp-journal {
+			font-weight: bold;
+			font-style: italic;
+		}
+		.dp-vol {
+			font-weight: bold;
+		}
+		#footer {
+			font-size: 10px;
+			margin-top: 25px;
+			border-top: 1px solid silver;
+			text-align: center;
+			padding-top: 3px;
+		}
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		var parsePubXML = function(year) {
+			jQuery.ajax({
+				type: "GET",
+				url: "papers/year-"+year+".xml",
+				dataType: "xml",
+				error: function(a,b,c) {
+					//console.log(b);
+				},
+				success: function(data) {
+					var sections=jQuery('#pubs h3');
+					var i,j;
+					for (i=0;i<sections.length;i++) {
+						if (sections.get(i).getAttribute('tag')<year) {
+							j=i;
+							break;
+						}
+					}
+					jQuery(sections.get(j)).before('<h3 tag='+year+'>year '+year+'</h3><ul id="lst-year-'+year+'" class="pub-list"></ul></div>');
+					
+					numPapers = 0;
+					$(data).find('paper').each(function(){
+						var papernode = $(this);
+						//pdf url
+						pdflink = papernode.find('pdf').text();
+						if (pdflink != '#') {
+							pdflink = 'http://projects.liuy.me/lulab/papers/' + pdflink;
+						}
+						//author
+						authorspan = '<span class="dp-authors">';
+						papernode.find('authors').find('author').each(function(){
+							authorspan += jQuery(this).text() + '; ';
+						});
+						authorspan += '</span>';
+						//title
+						titlespan = '<span class="dp-title">"';
+						titlespan += papernode.find('title').text();
+						titlespan += '"</span>';
+						//journal
+						journalspan = '<span class="dp-journal">';
+						journalspan += papernode.find('journal').text();
+						journalspan += '</span>';
+						//year
+						yearspan = '<span class="dp-year">'+year+'</span>';
+						//vol
+						volspan = '<span class="dp-vol">'+papernode.find('vol').text()+'</span>';
+						//page
+						pagespan = '<span class="dp-page">'+papernode.find('page').text()+'</span>';
+						
+						strli='<li>'+authorspan+', '+titlespan+', '+journalspan+', '+yearspan+', '+volspan+', '+pagespan+'.</li>';
+						jQuery('#lst-year-'+year).append(strli);
+						numPapers++;
+					});
+				}
+			});
+		};
+	jQuery(document).ready(function(){
+		var yearList = new Array('1996','1997','1998','1999','2000','2001','2003','2004','2005','2006','2007','2008');
+		var i=0;
+		for(i=yearList.length;i>0;i--) {
+			parsePubXML(yearList[i-1]);
+		}
+		
+	});	
+	</script>
+</head>
+<body>
+	<div id="browsernote">
+		<p>You get into this page because you're now using an out-of-date browser to visit Lu Lab's website. This page only provide some basic information for backward compatibility of old browser. For the best experience and more accurate information, please switch to a modern browser.</p>
+		<p>We suggest you using the latest version of <a href="http://www.google.com/chrome">Google Chrome</a>, <a href="http://www.mozilla.com/en-US/firefox/firefox.html?from=getfirefox">Mozilla Firefox</a> and <a href="http://www.apple.com/safari/">Apple Safari</a> to replace your current browser. However, if you still wanna stick to Microsoft (or Microsoft based) browser, please update your <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Internet Explore to version 8 or higher</a>. They're FREE!</p>
+	</div>
+	
+	<h1>Lu Lab @ UCLA</h1>
+
+	<ul id="toc">
+		<li><a href="#yunfeng">Professor Yunfeng Lu</a></li>
+		<li><a href="#research">Research Interests</a></li>
+		<li><a href="#group">Group Members</a></li>
+		<li><a href="#pubs">Publications</a></li>
+	</ul>
+	
+	<div id="yunfeng" class="section">
+		<h2>Professor Yunfeng Lu</h2>
+		<ul id="lu-cv"> 
+			<li>B.S. Jilin University, 1991</li> 
+			<li>M.S., Chinese Academy of Sciences, 1994 </li> 
+			<li>Ph.D. University of New Mexico, 1998</li> 
+		</ul> 
+		<p>Yunfeng Lu obtained his PhD from professor C. Jeff Brinker and Professor Gabriel P. Lopez at the University of New Mexico in 1998 and became a Sandia postdoc. In 2000, he worked at Applied Materials Inc. as a senior process engineer. He joined Tulane University as an assistant professor in 2001, promoted to endowed professor with tenure in 2005,and moved to UCLA in 2006.</p> 		
+	</div>
+	
+	<div id="research" class="section">
+		<h2>Research Interests</h2>
+		<p class="res-note">Surfing the history of human civilization, energy and water were probably the most essential elements drove the rise and decline of a nation. While advanced biomedical technology is somehow a luxury; as creatures, living better and longer has been our instinctive pursuit. Energy and biomedical research therefore have emerged as the most popular themes – to which the most research funding are going. To survive, we have piloted our focus from the mesoporous materials to energy and biomedical related research.</p>
+		<h3>Solar, Supercapacitor and Battery Materials</h3>
+		<p>Synthesis of Cu-In-S based nanoparticles and nanowires and use of such low dimensional building blocks for low-cost device fabrication; design and synthesis of hierarchical composites, including oxides and graphite with controlled structure and composition, Li-intercalatable nanostructure, and thin film devices.</p>
+		<h3>Biomolecular Delivery and Biocomposites</h3>
+		<p>Design and synthesis of nanocapsules of proteins, si-RNA, DNA and virus, with high delivery efficiency, intracellular stability and activity. Extensive research has been focusing on bio-distribution, therapeutic effect, immunoresponse and inter-cellular transport for imaging, cosmetic, therapeutic, bio-defense, and other applications. We are also interested in integrating bioactive molecules with synthetic materials leading to a new class of bioactive robust composites.</p>
+		<p class="res-note">Nanostructures with critical dimensions less than 100 nm endow materials with unique and often superior mechanical, electronic, magnetic and optical properties. Device application however require successful translation of these properties into dimensions that people are able to handle with. The main research interest of our group is the Synthesis and Hierarchical Assembly of Nanostructured Materials towards Device Application using Self-Assembly Technique as a main tool. Please click following poster images to learn more about our ongoing research directions.</p>
+		<h3>Hierarchical Porous Materials</h3>
+		<p>The recent synthesis of mesoporous silica by surfactant templating has given researchers some insight into the world of nanometer scale fabrication, leading to a class of fascinating nanostructured porous and composite materials. In general, inorganic porous materials are formed by self-assembly of inorganic precursors, such as silicates, and amphiphilic organic templates followed by template removal. In most our syntheses, evaporation induced self-assembly (aerosol, dip/spin coating or spry dry process) is used. By exploring a large variety of  inorganic precursors, organic templates and additives (especially hydrophobic and polymeric additives), we are able to fabricate a large number of ceramics, carbons, and composites with hierarchical structures for chemical warfare sensors, catalysts, membranes, microelectronics, fuel cells, and other applications.</p>
+		<h3>Nanowire Microscopic Assemblies</h3>
+		<p>Hierarchical assembly of nanowire building blocks is one of key features in the bottom–up paradigm for nanotechnology. Our approach is based on a templated electrodeposition process, in which wires are grown within interconnected meso-channels of mesoporous silica templates, allowing precise structure control and tunable chemical compositions. Hierarchical structure is realized by combining with nano-confinement, lithography patterning, or introducing different scaled porogens. These functional nanowire networks possess advantages in both 1D nanowires and 3D robust engineering form and have the potential of making a significant contribution in the field of sensors, catalysts, fuel cells, photovoltaics, high-density information storage, and thermoelectrics.</p>
+		<h3>Functional Nanocomposites</h3>
+		<p>Nature has created intriguing nanocomposites with unique functionalities through assembly. For example, abalone shell possesses alternative layers of hard CaCO3 and soft bio-polymer, providing thousand times increase in toughness compared with the constituent bulk CaCO3. Our research is to design functional nanocomposites through the assembly of detergent molecules, functional components, and pre-programmed molecules. We have synthesized different chromatic responsive coatings that suitable for artificial nerves, laser materials, protecting coatings, smart coatings and many other advanced applications.</p>
+		<h3>Adaptive Responsive Assemblies</h3>
+		<p>Biological systems like cell membranes and chameleons adapt to their surroundings by undergoing reversible structural and functional changes in response to external stimuli. Translation of such natural responses to synthetic systemsis of interest for sensors, responsive camouflage, drug-delivery and, more generally, for the development of robust engineering materials with life-like qualities.  To date environmentally adaptive synthetic materials have been limited mainly to hydrogels, which, at a critical solubility temperature, pH or ionic strength, undergo reversible phase separation resulting in a large change in volume.  We design supramolecular amphiphilies and assemble them into a new class of adaptive materials.</p>
+	</div>
+	
+	<div id="group" class="section">
+		<h2>Group Members</h2>
+		<h3>Supervisor</h3>
+		<ul class="memberlist">
+			<li>
+				<span class="mem-name">Yunfeng Lu</span>
+				<a href="mailto:luucla@ucla.edu" class="mem-link">Email</a>
+				<a href="#" class="mem-link">Resume</a>
+				<a href="http://www.seas.ucla.edu/~lu/" class="mem-link">Homepage</a>
+			</li>
+		</ul>
+		<h3>Visiting Professor</h3>
+		<ul class="memberlist">
+			<li>
+				<span class="mem-name">Xubo Yuan</span>
+				<a href="mailto:xbyuan_tju@yahoo.com" class="mem-link">Email</a>
+			</li>
+		</ul>
+		<h3>Postdoc. Fellows</h3>
+		<ul class="memberlist">
+			<li>
+				<span class="mem-name">Ming Yan</span>
+				<a href="mailto:mingyan@ucla.edu" class="mem-link">Email</a>
+			</li>
+		</ul>
+		<h3>Graduates</h3>
+		<ul class="memberlist">
+			<li><span class="mem-name">Qiangfeng Xiao</span><a href="mailto:xiaoqf@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Ding Weng</span><a href="mailto:wengding@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Hiesang Sohn</span><a href="mailto:sonisang@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Chih-Ning Pao</span><a href="mailto:cnpao@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Kimberly Cross</span><a href="mailto:cross@seas.ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Juanjuan Du</span><a href="mailto:juanjuandu@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Zheng Chen</span><a href="mailto:zhengchen@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Xiaolei Wang</span><a href="mailto:xlwang813@hotmail.com" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Lynn Rice</span><a href="mailto:lynnrice@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Yang Liu</span><a href="mailto:liuyang84321@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Mingfu Zhu</span><a href="mailto:richard@ecnu.cn" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Yuewei Zhang</span><a href="mailto:zhangyuewei@tju.edu.cn" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Qi Zhu</span><a href="mailto:firstzq@sjtu.edu.cn" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Jing Wen</span><a href="mailto:wjjulia@ucla.edu" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Kun Dai</span><a href="mailto:kundai421@gmail.com" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Yiting Peng</span><a href="mailto:pyt_1108@163.com" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Wei Wei</span><a href="mailto:ana_wei@hotmail.com" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Chunzhu Yan</span><a href="mailto:bamboo.yan@gmail.com" class="mem-link">Email</a></li>
+			<li><span class="mem-name">Jing Jin</span><a href="mailto:jjin.seu@gmail.com" class="mem-link">Email</a></li>
+		</ul>
+		
+	</div>
+	
+	<div id="pubs" class="section">
+		<h2>Publications</h2>
+		<h3 tag="0" style="display:none">DO NOT REMOVE ME</h3>
+	</div>
+	
+	<div id="footer">
+		<p>Copyright &copy;2010 Lu Lab. All rights reserved. - Back Compatibility Version - Please update your browser for better experiences.</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Rahul Ganguli</author>
+			<author>Celeste A. Drewien</author>
+			<author>Mark T. Anderson</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Weilang Gong</author>
+			<author>Yongxing Guo</author>
+			<author>Hermes Soyez</author>
+			<author>Bruce Dunn</author>
+			<author>Michael H. Huang</author>
+			<author>Jeffrey I. Zink</author>
+		</authors>
+		<title>Continuous Formation of Supported Cubic and Hexagonal Mesoporous Films by Sol-Gel Dip-Coating</title>
+		<journal>Nature</journal>
+		<vol>389</vol>
+		<page>364-8</page>
+		<pdf>22df9ed795158cdd718e5f907dee3bb2.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Gregory C. Frye</author>
+			<author>Rechard J. Kottenstette</author>
+			<author>Edwin J. Heller</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Stephen A. Casalnuovo</author>
+			<author>Alan Sellinger</author>
+			<author>Narayan K. Raman</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Optimizing Surface Acoustic Wave Sensors for Trace Chemical Detection</title>
+		<journal>Solid-State Sensor Actuators</journal>
+		<vol>2</vol>
+		<page>1323-6</page>
+		<pdf>912608823154fa8a171a467679aa8d76.pdf</pdf>
+	</paper>
+</papers>

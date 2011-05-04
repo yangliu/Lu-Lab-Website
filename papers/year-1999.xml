@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Guozhong Cao</author>
+			<author>Rahul P. Kale</author>
+			<author>S. Prabakar</author>
+			<author>Gabriel P. Lopez</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Microporous Silica Prepared by Organic Templating: Relationship between the Molecular Template and Pore Structure</title>
+		<journal>Chem. Mater.</journal>
+		<vol>11</vol>
+		<page>1223-9</page>
+		<pdf>cf764060838e9465f06965ef8101bb3b.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>C. Jeffrey Brinker</author>
+			<author>Yunfeng Lu</author>
+			<author>Alan Sellinger</author>
+			<author>Hongyou Fan</author>
+		</authors>
+		<title>Evaporation-Induced Self-Assembly: Nanostructures Made Easy</title>
+		<journal>Adv. Mater.</journal>
+		<vol>11</vol>
+		<page>579-85</page>
+		<pdf>6389f87cad1289d37bcaa11dd5203d08.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Ce Wang</author>
+			<author>Yahong Zhang</author>
+			<author>Yunfeng Lu</author>
+			<author>Yen Wei</author>
+		</authors>
+		<title>A Novel Bulk Sol-Gel Process to Prepare Monolithic Silica Materials</title>
+		<journal>J. Mater. Res.</journal>
+		<vol>14</vol>
+		<page>4098-102</page>
+		<pdf>0a2192d6d26830b36372a5c68b771ae3.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Hongyou Fan</author>
+			<author>Aaron Stump</author>
+			<author>Timothy L. Ward</author>
+			<author>Thomas Rieker</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Aerosol-Assisted Self-Assembly of Mesostructured Spherical Nanoparticles</title>
+		<journal>Nature</journal>
+		<vol>398</vol>
+		<page>223-6</page>
+		<pdf>9003879dba478969a925f374dabf1b8c.pdf</pdf>
+	</paper>
+</papers>

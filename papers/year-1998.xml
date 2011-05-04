@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Alan Sellinger</author>
+			<author>Pilar M. Weiss</author>
+			<author>Anh Nguyen</author>
+			<author>Yunfeng Lu</author>
+			<author>Roger A. Assink</author>
+			<author>Weiliang Gong</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Continuous Self-Assembly of Organic-Inorganic Nanocomposite Coatings that Mimic Nacre</title>
+		<journal>Nature</journal>
+		<vol>394</vol>
+		<page>256-60</page>
+		<pdf>cd7f7f2f261a3de3345e7fb9f186f8f3.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Saipeng Yang</author>
+			<author>Yunfeng Lu</author>
+			<author>Plamen Atanossov</author>
+			<author>Ebtisam Wilkins</author>
+			<author>Xiangchun Long</author>
+		</authors>
+		<title>Microfabricated Glucose Biosensor with Glucose Oxidase Entrapped in Sol-Gel Matrix</title>
+		<journal>Talanta</journal>
+		<vol>47</vol>
+		<page>735-43</page>
+		<pdf>1896786b987ef943e8dd3956d14ca25f.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Ling Han</author>
+			<author>Thomas M. Niemczyk</author>
+			<author>Yunfeng Lu</author>
+			<author>Gabriel P. Lopez</author>
+		</authors>
+		<title>Chemical Sensors Based on Surface-Modified Sol-Gel-Coated Infrared Wave Guides</title>
+		<journal>Applied Spectroscopy</journal>
+		<vol>52</vol>
+		<page>119-22</page>
+		<pdf>b490cadcc120fb09018a7c170dc017af.pdf</pdf>
+	</paper>
+</papers>

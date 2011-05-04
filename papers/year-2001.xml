@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Hongyou Fan</author>
+			<author>Holly R. Bentley</author>
+			<author>Kyle R. Kathan</author>
+			<author>Paul Clem</author>
+			<author>Yunfeng Lu</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Self-Assembled Aerogel-like Low Dielectric Constant Films</title>
+		<journal>J. Non-Crystalline Solids</journal>
+		<vol>285</vol>
+		<page>79-83</page>
+		<pdf>d6db822e9331d9ead44ee4716aea05b1.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Hongyou Fan</author>
+			<author>Frank Van Swol</author>
+			<author>Yunfeng Lu</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Multiphased Assembly of Nanoporous Silica Particles</title>
+		<journal>J. Non-Crystalline Solids</journal>
+		<vol>285</vol>
+		<page>71-78</page>
+		<pdf>3092d08bfb8ce2fa6fd988478f8770a7.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Yi Yang</author>
+			<author>Alan Sellinger</author>
+			<author>Mengcheng Lu</author>
+			<author>Jinman Huang</author>
+			<author>Hongyou Fan</author>
+			<author>Raid Haddad</author>
+			<author>Gabriel P. Lopez</author>
+			<author>Alan R. Burns</author>
+			<author>Darryl Y. Saasaki</author>
+			<author>John Shelnutt</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Self-Assembly of Mesoscopically Ordered Chromatic Polydiacetylene/Silica Nanocomposites</title>
+		<journal>Nature</journal>
+		<vol>410</vol>
+		<page>913-7</page>
+		<pdf>b8ac471888c349075bd8656c481aa0c7.pdf</pdf>
+	</paper>
+</papers>

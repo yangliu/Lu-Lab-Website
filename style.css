@@ -1,0 +1,824 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Created by Liu Yang (http://yangliu.name) in Espresso. All rights reserved */
+
+body {
+	background: #f0f0f0 url(images/bg.jpg) center top no-repeat;
+	margin: 0 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: left;
+}
+.s {
+	background-image: url(images/spirit.png);
+	background-repeat: no-repeat;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.clearfloat {
+	clear: both;
+}
+#pagebody {
+	width: 960px;
+	margin: 0 auto;
+}
+#header {
+	height: 99px;
+	position: relative;
+}
+#logo {
+	width: 219px;
+	height: 28px;
+	position: absolute;
+	left: 30px;
+	top: 35px;
+}
+#logo a {
+	display: block;
+	width: 219px;
+	height: 28px;
+	background: url(images/logo.png) no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+#nav {
+	width: 652px;
+	height: 51px;
+	position: absolute;
+	right: 15px;
+	bottom: -1px;
+	overflow: hidden;
+}
+#nav li {
+	display: block;
+	float: left;
+	height: 51px;
+	overflow: hidden;
+}
+#nav-home a, #nav-res a, #nav-pubs a, #nav-group a, #nav-acts a{
+	display: block;
+	float: left;
+	height: 51px;
+	text-indent: -1000px;
+	overflow: hidden;
+	background: url(images/nav-bar.png) no-repeat;
+}
+#nav-home, #nav-home a {
+	width: 54px;
+}
+#nav-home a {
+	background-position: 0 0;
+}
+#nav-home a:hover {
+	background-position: 0 -51px;
+}
+#nav-home.selected a, #nav-home.selected a:hover {
+	background-position: 0 -102px;
+}
+#nav-res, #nav-res a {
+	width: 125px;
+}
+#nav-res a {
+	background-position: -54px 0;
+}
+#nav-res a:hover {
+	background-position: -54px -51px;
+}
+#nav-res.selected a, #nav-res.selected a:hover {
+	background-position: -54px -102px;
+}
+#nav-pubs, #nav-pubs a {
+	width: 177px;
+}
+#nav-pubs a {
+	background-position: -179px 0;
+}
+#nav-pubs a:hover {
+	background-position: -179px -51px;
+}
+#nav-pubs.selected a, #nav-pubs.selected a:hover {
+	background-position: -179px -102px;
+}
+#nav-group, #nav-group a {
+	width: 134px;
+}
+#nav-group a {
+	background-position: -356px 0;
+}
+#nav-group a:hover {
+	background-position: -356px -51px;
+}
+#nav-group.selected a, #nav-group.selected a:hover {
+	background-position: -356px -102px;
+}
+#nav-acts, #nav-acts a {
+	width: 159px;
+}
+#nav-acts a {
+	background-position: -490px 0;
+}
+#nav-acts a:hover {
+	background-position: -490px -51px;
+}
+#nav-acts.selected a, #nav-acts.selected a:hover {
+	background-position: -490px -102px;
+}
+#body {
+	clear: left;
+	padding: 0;
+	background: white url(images/main-bg.png) 0 -115px no-repeat;
+}
+#footer {
+	clear: left;
+	height: 115px;
+	background: white url(images/main-bg.png) no-repeat;
+	overflow: hidden;
+	position: relative;
+	font-size: 12px;
+	color: white;
+}
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: black;
+	background: white;
+}
+#ft-address, #ft-tel {
+	position: absolute;
+}
+#ft-address {
+	left: 325px;
+	top: 28px;
+}
+#ft-tel {
+	left: 705px;
+	top: 32px;
+}
+#copyfooter {
+	clear: left;
+	font-size: 9px;
+	color: #999;
+	padding: 10px 25px;
+	margin-bottom: 20px;
+}
+#copyfooter div {
+	cursor: default;
+}
+#copyfooter a {
+	color: #999;
+	text-decoration: none;
+}
+#copyfooter a:hover {
+	color: white;
+	background: #999;
+}
+#copyfooter .alignright {
+	color: #ccc;
+}
+#copyfooter .alignright a {
+	color: #ccc;
+}
+#content {
+	margin: 30px;
+	width: 570px;
+	float: left;
+}
+#content-wide {
+	margin: 30px;
+	float: left;
+}
+#sidebar {
+	margin: 30px;
+	margin-left: 0;
+	width: 300px;
+	float: left;
+	position: relative;
+}
+#floatnav {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+h2.l-title {
+	text-indent: -1000px;
+	overflow: hidden;
+}
+#resint-title {
+	width: 383px;
+	background-position: 0 -147px;
+	height: 26px;
+}
+#publications-title {
+	width: 256px;
+	background-position: -255px 0;
+	height: 32px;
+}
+#members-title {
+	width: 278px;
+	background-position: 0 -173px;
+	height: 32px;
+}
+#pastmembers-title {
+	width: 256px;
+	background-position: -278px -173px;
+	height: 32px;
+}
+#activities-title {
+	width: 211px;
+	background-position: -383px -147px;
+	height: 26px;
+}
+#yf-title {
+	width: 452px;
+	background-position: 0 -110px;
+	height: 32px;
+}
+#nav-title {
+	height: 33px;
+	width: 214px;
+	background-position: -255px -47px;
+}
+#latest-pubs {
+	height: 30px;
+	width: 265px;
+	background-position: -187px -80px;
+}
+#latest-pubs a {
+	display: block;
+	height: 30px;
+	width: 265px;
+	overflow: hidden;
+	text-indent: -1000px;
+}
+.text {
+	padding: 5px;
+	color: #666;
+}
+.text h2 {
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 15px 0;
+	padding: 0;
+}
+.text p {
+	color: #666;
+	font-weight: normal;
+	margin: 10px 0;
+	line-height: 140%;
+	font-size: 13px;
+}
+.text ul, .text ol {
+	margin: 20px 0 20px 35px;
+	font-size: 13px;
+}
+.text ul li {
+	list-style: disc;
+}
+.text ul li, .text ol li {
+	line-height: 160%;
+}
+.text ul #lu-cv {
+	margin: 60px 0;
+}
+.text .lessimportant {
+	font-style: italic;
+}
+.text .research-des {
+	font-size: 13px;
+	line-height: 190%;
+}
+.r-member,.r-pic {
+	float: right;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	margin: 10px;
+}
+.section {
+	margin: 15px 0;
+}
+.sec-title {
+	margin: 25px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #a40049;
+}
+
+#home-list {
+	margin: 20px 0;
+	padding: 0;
+}
+#home-list li {
+	list-style: none;
+	margin: 0 0 15px 0;
+	width: 250px;
+}
+.hl-title {
+	color: #a40049;
+	font-size: 15px;
+	line-height: 130%;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.hl-cite-info {
+	color: #666;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.j-name {
+	font-style: italic;
+	font-weight: bold;
+}
+.hl-readmore-ct {
+	overflow: hidden;
+	height: 50px;
+	position: relative;
+	background: transparent url(images/sep-dots.png) no-repeat;
+}
+.hl-btn-readmore {
+	display: block;
+	position: absolute;
+	width: 103px;
+	height: 22px;
+	background-position: -152px -22px;
+	overflow: hidden;
+	text-indent: -1000px;
+	right: 0;
+	bottom: 15px;
+	cursor: pointer;
+}
+a.hl-btn-readmore:hover {
+	background-position: -152px -52px;
+}
+
+#featured-wnd {
+	width: 900px;
+	height: 300px;
+	margin: 0 30px 15px 30px;
+	padding-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+#featured-pic {
+	width: 2700px;
+	height: 300px;
+	position: absolute;
+}
+#featured-pic li {
+	width: 900px;
+	height: 300px;
+	float: left;
+}
+#item1 {
+	background: url(images/featured-1.png) no-repeat;
+}
+#item2 {
+	background: url(images/featured-2.png) no-repeat;
+}
+#item3 {
+	background: url(images/featured-3.png) no-repeat;
+}
+#featured-title {
+	position: absolute;
+	top: 85px;
+	left: 110px;
+	width: 175px;
+	height: 22px;
+	text-indent: -1000px;
+	overflow: hidden;
+	background-position: -50px 0;
+}
+#featured-text {
+	position: absolute;
+	width: 270px;
+	left: 15px;
+	top:  120px;
+	height: 170px;
+	color: white;
+	text-align: right;
+	overflow: hidden;
+}
+#featured-text li {
+	position: absolute;
+	height: 170px;
+	width: 270px;
+	top: 0;
+	display: none;
+}
+.featured-item-title {
+	font-size: 13px;
+	line-height: 150%;
+	font-weight: bold;
+	margin: 15px 0;
+}
+.featured-item-author {
+	font-size: 14px;
+	font-style: italic;
+	margin: 15px 0 0 0;
+}
+a.featured-item-read {
+	display: block;
+	width: 152px;
+	height: 30px;
+	overflow: hidden;
+	background-position: 0 -22px;
+	text-align: left;
+	text-indent: -1000px;
+	float: right;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+a.featured-item-read:hover {
+	background-position: 0 -52px;
+}
+#featured-sel {
+	width: 100px;
+	height: 28px;
+	position: absolute;
+	top: 55px;
+	right: 10px;
+	overflow: hidden;
+}
+#featured-sel li {
+	width: 28px;
+	height: 28px;
+	padding: 0 2px;
+	float: left;
+	overflow: hidden;
+}
+#featured-sel li a {
+	display: block;
+	text-indent: -1000px;
+	width: 28px;
+	height: 28px;
+}
+a#sel-1 {
+	background-position: 0 -82px;
+}
+a#sel-1.sel,a#sel-1:hover {
+	background-position: -84px -82px;
+}
+a#sel-2 {
+	background-position: -28px -82px;
+}
+a#sel-2.sel,a#sel-2:hover {
+	background-position: -112px -82px;
+}
+a#sel-3 {
+	background-position: -56px -82px;
+}
+a#sel-3.sel,a#sel-3:hover {
+	background-position: -140px -82px;
+}
+#res-list {
+	list-style: none;
+	margin: 15px 0 15px 0;
+	padding: 20px;
+	width: 270px;
+}
+#res-list li {
+	display: table;
+	height: 50px;
+	width: 265px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	margin: 5px 0;
+	overflow: hidden;
+}
+#res-list-item-1 {
+	border-left-color: #f00;
+}
+#res-list-item-2 {
+	border-left-color: #ff7800;
+}
+#res-list-item-3 {
+	border-left-color: #ffd200;
+}
+#res-list-item-4 {
+	border-left-color: #00df05;
+}
+#res-list-item-5 {
+	border-left-color: #00ebfa;
+}
+#res-list-item-6 {
+	border-left-color: #0081fa;
+}
+#res-list li a {
+	display: table-cell;
+	height: 50px;
+	width: 225px;
+	padding-right: 25px;
+	padding-left: 15px;
+	background: url(images/arrow-right.png) right center no-repeat;
+	color: #a90f54;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 140%;
+	vertical-align: middle;
+	text-decoration: none;
+}
+#res-list li a:hover {
+	background-color: #fff0f7;
+}
+#gallery {
+	padding: 20px 0;
+	height: 752px;
+}
+#thumbs {
+	padding: 20px 0;
+}
+#pub-years-nav {
+	margin: 15px 0 15px 0;
+}
+
+a.sbutton {
+  background: transparent url(images/buttons-2.png) no-repeat scroll right top;
+  color: White;
+  display: block;
+  float: left;
+  height: 31px;
+  font: normal 12px;
+  margin: 5px 5px 5px 0;
+  padding-right: 31px;
+  text-decoration: none;
+  width: 80px;
+}
+a.sbutton span {
+  background: transparent url(images/buttons.png) no-repeat;
+  display: block;
+  padding: 7px 3px 10px 20px;
+  line-height: 14px;
+  
+}
+a.sbutton:hover {
+  background-position: right -31px;
+}
+a.sbutton:hover span {
+  background-position: left -31px;
+}
+a.sbutton:active {
+  background-position: right -62px;
+  outline: none;
+}
+a.sbutton:active span {
+  background-position: left -62px;
+  padding: 8px 4px 9px 19px;
+}
+.publist {
+	list-style: none;
+	margin-bottom: 10px;
+	padding-bottom: 25px;
+	background: url(images/sep-dots.png) bottom repeat-x;
+}
+.publist li {
+	margin: 5px 0;
+	font-size: 13px;
+	line-height: 150%;
+}
+.downloadpaper {
+	display: block;
+	text-decoration: none;
+	color: #666;
+	padding: 10px;
+}
+.downloadpaper:hover {
+	padding: 9px;
+	border: 1px solid #ffe7f2;
+	background: #fff4f9;
+	position: relative;
+}
+.downloadpaper .dp-icon {
+	width: 33px;
+	height: 33px;
+	overflow: hidden;
+	position: absolute;
+	background: url(images/pdf-icons.png) 0 0 no-repeat;
+}
+.downloadpaper:hover .dp-icon {
+	background-position: 0 -33px;
+}
+.downloadpaper .dp-citeinfo {
+	margin-left: 50px;
+}
+.dp-author {
+	
+}
+.dp-title {
+	
+}
+.dp-journal {
+	font-style: italic;
+	font-weight: bold;
+}
+.dp-year {
+	
+}
+.dp-vol {
+	font-weight: bold;
+}
+.dp-page {
+	
+}
+.member {
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+}
+.member:hover {
+	background-color: #fffafa;
+	border: 1px solid #ffeeee;
+	padding: 9px;
+}
+.member-photo {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.member-text {
+	margin: 4px 0 4px 162px;
+	color: #666;
+}
+.member-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #333;
+}
+.member-cv {
+	list-style: disc;
+	font-size: 13px;
+	margin: 10px 0 15px 20px;
+}
+.member-cv li {
+	margin: 7px;
+	line-height: 130%;
+}
+.member-btn {
+	list-style: none;
+	height: 38px;
+	overflow: hidden;
+}
+.member-btn li {
+	margin: 0 5px;
+	width: 38px;
+	height: 38px;
+	overflow: hidden;
+	float: left;
+}
+.member-btn li a {
+	display: block;
+	float: left;
+	width: 38px;
+	height: 38px;
+	background-image: url(images/member-icons.png);
+	background-repeat: no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+	opacity: 0.5;
+}
+.member-btn li a.member-btn-email {
+	background-position: 0 0;
+}
+.member-btn li a.member-btn-resume {
+	background-position: -38px 0;
+}
+.member-btn li a.member-btn-homepage {
+	background-position: -76px 0;
+}
+.member-btn li a.member-btn-facebook {
+	background-position: -114px 0;
+}
+.member-btn li a.member-btn-twitter {
+	background-position: -152px 0;
+}
+.member-btn li a.member-btn-renren {
+	background-position: -190px 0;
+}
+
+/* the overlayed element */
+.overlay {
+	
+	/* initially overlay is hidden */
+	/*display:none;*/
+	
+	/* growing background image */
+	background-image:url(images/white-overlay.png);
+	
+	/* 
+		width after the growing animation finishes
+		height is automatically calculated
+	*/
+	width:610px;		
+	height: 480px;
+	/* some padding to layout nested elements nicely  */
+	padding:24px 23px 22px 23px;
+
+	/* a little styling */	
+	position: absolute;
+	overflow: hidden;
+	z-index: 99;
+	left: 50%;
+	margin-left: -328px;
+	top: 50px;
+	display: none;
+}
+.overlay .details {
+	position: relative;
+}
+.overlay .details h2.otitle {
+	line-height: 50px;
+	color: #555;
+	font-size: 22px;
+	padding: 0 15px;
+}
+.overlay .details .overlay-content {
+	height: 425px;
+	width: 595px;
+	padding-left: 15px;
+	position: absolute;
+	top: 40px;
+	overflow: auto;
+}
+
+/* default close button positioned on upper right corner */
+.overlay .close {
+	background:url(images/close-overlay.png) 0 0 no-repeat;
+	position:absolute; right:-19px; top:-19px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+	overflow: hidden;
+	text-indent: -1000px;
+}
+.past-mem-list {
+	list-style: disc;
+	margin: 0 0 0 30px;
+	color: #666;
+	font-size: 13px;
+}
+.past-mem-list li {
+	line-height: 150%;
+}
+.past-mem-name {
+	font-weight: bold;
+	padding-right: 15px;
+}

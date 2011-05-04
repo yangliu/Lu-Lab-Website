@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Jiebin Pang</author>
+			<author>J. Eric Hampsey</author>
+			<author>Qingyuan Hu</author>
+			<author>Zhiwang Wu</author>
+			<author>Vijay T. John</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Mesoporous Silica with Ia3d Cubic Structure and Good Thermal Stability</title>
+		<journal>Chem. Comm.</journal>
+		<vol>6</vol>
+		<page>682-3</page>
+		<pdf>0b9843d0c3a19462089b5fb34d5476c6.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Maria Gil</author>
+			<author>Xiangling Ji</author>
+			<author>Xianfeng Li</author>
+			<author>Hui Na</author>
+			<author>J. Eric Hampsey</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Direct Synthesis of Sulfonated Aromatic Poly(ether ether ketone) Proton Exchange Membranes for Fuel Cell Applications</title>
+		<journal>J. Membr. Sci.</journal>
+		<vol>234</vol>
+		<page>75-81</page>
+		<pdf>74c8f4fd0d433f7a57e0217bca54e230.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Jiebin Pang</author>
+			<author>Xuan Li</author>
+			<author>Donghai Wang</author>
+			<author>Zhiwang Wu</author>
+			<author>Vijay T. John</author>
+			<author>Zhenzhong Yang</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Silica-Templated Continuous Mesoporous Carbon Films by a Spin-Coating Technique</title>
+		<journal>Adv. Mater.</journal>
+		<vol>16</vol>
+		<page>884-6</page>
+		<pdf>58178b8c4047c1ba734427e44a8041f2.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>J. Eric Hampsey</author>
+			<author>Claudio L. De Castro</author>
+			<author>Byron F. McCaughy</author>
+			<author>Donghai Wang</author>
+			<author>Brian S. Mitchell</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Preparation of Micrometer- to Sub-Micrometer-Sized Nanostructured Silica Particles Using High-Energy Ball Milling</title>
+		<journal>J. Am. Ceram. Soc.</journal>
+		<vol>87</vol>
+		<page>1280-6</page>
+		<pdf>1719fa6c1d884daf3cef82328d5bf442.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Jiebin Pang</author>
+			<author>Qingyuan Hu</author>
+			<author>Zhiwang Wu</author>
+			<author>J. Eric Hampsey</author>
+			<author>Jibao He</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Direct Synthesis of Unimodal and Bimodal Nanoporous Carbon</title>
+		<journal>Microporous and Mesoporous Mater.</journal>
+		<vol>74</vol>
+		<page>73-8</page>
+		<pdf>064b9c2400092681d12e9a794f1bfb06.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Hongmei Luo</author>
+			<author>Li Sun</author>
+			<author>Yunfeng Lu</author>
+			<author>Yushan Yan</author>
+		</authors>
+		<title>Electrodeposition of Mesoporous Semimetal and Magnetic Metal Films from Lyotropic Liquid Crystalline Phases</title>
+		<journal>Langmuir</journal>
+		<vol>20</vol>
+		<page>10218-22</page>
+		<pdf>c57909f28e05f5f910bc2273ad3a0db4.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Jiebin Pang</author>
+			<author>J. Eric Hampsey</author>
+			<author>Zhiwang Wu</author>
+			<author>Qingyuan Hu</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Hydrogen Adsorption in Mesoporous Carbons</title>
+		<journal>Appl. Phys. Lett.</journal>
+		<vol>85</vol>
+		<page>4887-9</page>
+		<pdf>533ed5dc259bf3d83374f15bd8583e44.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Donghai Wang</author>
+			<author>Hongmei Luo</author>
+			<author>Rong Kou</author>
+			<author>Maria P. Gil</author>
+			<author>Shuaigang Xiao</author>
+			<author>Vladimir O. Golub</author>
+			<author>Zhenzhong Yang</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>A General Route to Macroscopic Hierarchical 3D Nanowire Networks</title>
+		<journal>Angew. Chem. Int. Ed.</journal>
+		<vol>43</vol>
+		<page>6169-73</page>
+		<pdf>#</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Christy Ford</author>
+			<author>Mohit Singh</author>
+			<author>Louise Lawson</author>
+			<author>Jibao He</author>
+			<author>Vijay T. John</author>
+			<author>Yunfeng Lu</author>
+			<author>Kyriakos Papadopoulos</author>
+			<author>Gary McPherson</author>
+			<author>Arijit Bose</author>
+		</authors>
+		<title>Biocatalysis in the Development of Functional Polymer-Ceramic Nanocomposites</title>
+		<journal>Colloids and Surfaces B: Biointerfaces</journal>
+		<vol>39</vol>
+		<page>143-50</page>
+		<pdf>3d1cd764f1d334ff5dab3e03db4e4620.pdf</pdf>
+	</paper>
+</papers>

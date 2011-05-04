@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>G.Z. Cao</author>
+			<author>Rahul P. Kale</author>
+			<author>L. Delattre</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Gabriel P. Lopez</author>
+		</authors>
+		<title>Controlling the Porosity of Microporous Silica by Sol-Gel Processing Using an Organic Template Approach</title>
+		<journal>Mat. Res. Soc. Symp. Proc.</journal>
+		<vol>435</vol>
+		<page>271-5</page>
+		<pdf>2ddc7d394a40cd61c89454ff89909cd8.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Ling Han</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Thomas M. Niemczyk</author>
+			<author>Gabriel P. Lopez</author>
+		</authors>
+		<title>Chemical Sensors Based on Hydrophobic Porous Sol-Gel Films and ATR-FTIR Spectroscopy</title>
+		<journal>Sensors and Actuators B: Chemical</journal>
+		<vol>36</vol>
+		<page>517-21</page>
+		<pdf>549f630be015884f07973446bbd946d9.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Guozhong Cao</author>
+			<author>Yunfeng Lu</author>
+			<author>Laurent Delattre</author>
+			<author>C. Jeffrey Brinker</author>
+			<author>Gabriel P. Lopez</author>
+		</authors>
+		<title>Amorphous Silica Molecular Sieving Membranes by Sol-Gel Processing</title>
+		<journal>Adv. Mater.</journal>
+		<vol>8</vol>
+		<page>588-91</page>
+		<pdf>5f080a9974677630859da0c0e33e2688.pdf</pdf>
+	</paper>
+</papers>

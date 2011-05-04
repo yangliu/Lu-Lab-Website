@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Chung-Yi Tsai</author>
+			<author>Siu-Yue Tam</author>
+			<author>Yunfeng Lu</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Dual-Layer Asymmetric Microporous Silica Membranes</title>
+		<journal>J. Membr. Sci.</journal>
+		<vol>169</vol>
+		<page>255-68</page>
+		<pdf>1cef1bac4416fed18f15ef630bef6906.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Yunfeng Lu</author>
+			<author>Hongyou Fan</author>
+			<author>Nilesh Doke</author>
+			<author>Douglas A. Loy</author>
+			<author>Roger A. Assink</author>
+			<author>David A. LaVan</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Evaporation-Induced Self-Assembly of Hybrid Bridged Silsesquioxane Film and Particulate Mesophases with Integral Organic Functionality</title>
+		<journal>J. Am. Chem. Soc.</journal>
+		<vol>122</vol>
+		<page>5258-61</page>
+		<pdf>e87733b59e5f9fc1cdb80b9750de0ca6.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Hongyou Fan</author>
+			<author>Yunfeng Lu</author>
+			<author>Aaron Stump</author>
+			<author>Scott T. Reed</author>
+			<author>Tom Baer</author>
+			<author>Randy Schunk</author>
+			<author>Victor Perez-Luna</author>
+			<author>Gabriel P. Lopez</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Rapid Prototyping of Patterned Functional Nanostructures</title>
+		<journal>Nature</journal>
+		<vol>405</vol>
+		<page>56-60</page>
+		<pdf>2cf92fad51ab2833153724d2c7a65d37.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Dhaval A. Doshi</author>
+			<author>Nicola K. Huesing</author>
+			<author>Mengcheng Lu</author>
+			<author>Hongyou Fan</author>
+			<author>Yunfeng Lu</author>
+			<author>Kelly Simmons-Potter</author>
+			<author>B. G. Potter Jr.</author>
+			<author>Alan J. Hurd</author>
+			<author>C. Jeffrey Brinker</author>
+		</authors>
+		<title>Optically Defined Multifunctional Patterning of Photosensitive Thin-Film Silica Mesophases</title>
+		<journal>Science</journal>
+		<vol>290</vol>
+		<page>107-11</page>
+		<pdf>9840aea56500e39b68ecfff4818216a0.pdf</pdf>
+	</paper>
+</papers>

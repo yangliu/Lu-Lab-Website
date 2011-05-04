@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<papers>
+	<paper>
+		<authors>
+			<author>Xuemei Sun</author>
+			<author>Tao Chen</author>
+			<author>Sanqing Huang</author>
+			<author>Fangjin Cai</author>
+			<author>Xuli Chen</author>
+			<author>Zhibin Yang</author>
+			<author>Li Li</author>
+			<author>Hui Cao</author>
+			<author>Yunfeng Lu</author>
+			<author>Huisheng Peng</author>
+		</authors>
+		<title>UV-Induced Chromatism of Polydiacetylenic Assemblies</title>
+		<journal>J. Phys. Chem. B</journal>
+		<vol>114</vol>
+		<page>2379-82</page>
+		<pdf>cdec28d7d6e3717fe62fe43d3e1540bb.pdf</pdf>
+	</paper>
+	<paper>
+		<authors>
+			<author>Zhiwang Wu</author>
+			<author>Yunfeng Lu</author>
+		</authors>
+		<title>Aerosol-Assisted Synthesis of Mesoporous Titania Nanoparticles with High Surface Area and Controllable Phase Composition</title>
+		<journal>J. Sol-Gel Sci. Technol</journal>
+		<vol>53</vol>
+		<page>287-92</page>
+		<pdf>692de4ac526317671d1c992fcda966f6.pdf</pdf>
+	</paper>
+</papers>
